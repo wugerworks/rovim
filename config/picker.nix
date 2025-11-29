@@ -3,7 +3,8 @@
     fzf-lua = {
       enable = true;
       profile = "default-title";
-    };
+      };
+
     keymaps = [
       # Picker
       (utils.mkKeymap' "n" "<leader>F" ":FzfLua<cr>")
