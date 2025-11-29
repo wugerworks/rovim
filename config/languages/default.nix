@@ -11,6 +11,11 @@
       lspSignature.enable = true;
       trouble.enable = true;
     };
+    treesitter = {
+      enable = true;
+      textobjects.enable = true;
+      grammars = pkgs.vimPlugins.nvim-treesitter.allGrammars;
+    };
     languages = {
       enableFormat = true;
       enableTreesitter = true;
@@ -32,6 +37,6 @@
           ];
         };
       };
-      };
+    };
   };
 }
