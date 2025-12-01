@@ -7,25 +7,25 @@
       trouble.enable = true;
       lightbulb.enable = false;
       inlayHints.enable = true;
-    };
-    mappings = {
-      codeAction = "<leader>la";
-      goToDeclaration = "gD";
-      goToDefinition = "gd";
-      listReferences = "gr";
-      goToType = "gy";
-      hover = "K";
-      nextDiagnostic = "]d"; # ]d
-      openDiagnosticFloat = "<leader>d";
-      renameSymbol = "rn";
-      documentHighlight = null;
-      listDocumentSymbols = null;
-      listImplementations = null;
-      listWorkspaceFolders = null;
-      previousDiagnostic = null;
-      removeWorkspaceFolder = null;
-      signatureHelp = null;
-      toggleFormatOnSave = null;
+      mappings = {
+        codeAction = "<leader>la";
+        goToDeclaration = "gD";
+        goToDefinition = "gd";
+        listReferences = "gr";
+        goToType = "gy";
+        hover = "K";
+        nextDiagnostic = "]d"; # ]d
+        openDiagnosticFloat = "<leader>d";
+        renameSymbol = "rn";
+        documentHighlight = null;
+        listDocumentSymbols = null;
+        listImplementations = null;
+        listWorkspaceFolders = null;
+        previousDiagnostic = null;
+        removeWorkspaceFolder = null;
+        signatureHelp = null;
+        toggleFormatOnSave = null;
+      };
     };
     treesitter = {
       enable = true;
