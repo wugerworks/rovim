@@ -8,6 +8,7 @@
       registers = "unnamedplus";
     };
     options = {
+      wrap = true;
       # 2-space indents
       tabstop = 2;
       softtabstop = 2;

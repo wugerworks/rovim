@@ -1,10 +1,11 @@
 {utils, ...}: {
   imports = [
+    ./languages
     ./binds.nix
     ./options.nix
-    ./languages
     ./picker.nix
     ./visual.nix
+    ./utility.nix
     ./mini.nix
   ];
   vim = {
